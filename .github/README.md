@@ -32,7 +32,8 @@ You also can create copy of any .bat file and change ratio in it.
 Example:
 
 ```bat
-node src/index.js %1 4/3 --> node src/index.js %1 16/9
+:: Change ratio from 4x3 to 16x9
+node src/index.js %1 4/3 --> node src/index.js %1 16/9 
 ```
 
 ### Using CLI
